@@ -18,12 +18,16 @@ A GNOME Shell extension to personalize GNOME looks.
 <img src = /Screenshots/Image_01.gif >
 </p>
 
+<p align="center">
+<img src = /Screenshots/Image_02.png >
+</p>
+
 <h1 align="center">
   Customizations
 </h1>
 
 <p align="center">
-<img src = /Screenshots/Image_02.png >
+<img src = /Screenshots/Image_03.png >
 </p>
 
 <h1 align="center">
