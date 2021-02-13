@@ -51,7 +51,7 @@ Enable it using GNOME Tweak Tool.
 </h1>
 
 This project is inspired from
-Adwaita theme from [gtk Project](https://www.gtk.org/), 
+Adwaita theme from [gtk Project](https://www.gtk.org/) and 
 [GNOME Shell project](https://wiki.gnome.org/Projects/GnomeShell).
 
 
