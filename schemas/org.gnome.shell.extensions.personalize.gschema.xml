@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Version 1.00
+============
+ 
+-->
+<schemalist gettext-domain="gnome-shell-extensions">
+
+  <schema id="org.gnome.shell.extensions.personalize" path="/org/gnome/shell/extensions/personalize/">
+  
+    <key name="theme-variant" type="s">    
+      <default>"gtk-contained.css"</default>
+      <summary>Theme Variant</summary>
+      <description>Theme Variant</description>
+    </key>
+    
+    <key name="accent-color" type="s">
+      <default>"rgb(53,132,228)"</default>
+      <summary>Accent Color</summary>
+      <description>Accent Color</description>
+    </key>
+
+    <key name="window-corner-curvature-radius" type="i">
+      <default>8</default>
+      <summary>Window corner curvature radius [ in pixels ]</summary>
+      <description>Window corner curvature radius [ in pixels ]</description>
+    </key>   
+
+    <key name="accent-color-selected-bg-color" type="s">
+      <default>"rgb(53,132,228)"</default>
+      <summary>Selected Background Color</summary>
+      <description>Selected Background Color</description>
+    </key>
+
+    <key name="accent-color-selected-borders-color" type="s">
+      <default>"rgb(24,95,180)"</default>
+      <summary>Selected Border Color [ Slider, Checked Button, ... ]</summary>
+      <description>Selected Border Color [ Slider, Checked Button, ... ]</description>
+    </key>
+
+    <key name="accent-color-link-color" type="s">
+      <default>"rgb(27,106,203)"</default>
+      <summary>Selected Color for Shell [ Selected date, slider, Hyperlinks, ... ]</summary>
+      <description>Selected Color for Shell [ Selected date, slider, Hyperlinks, ... ]</description>
+    </key>
+
+    <key name="accent-color-link-visited-color" type="s">
+      <default>"rgb(21,83,158)"</default>
+      <summary>Switch Button Border, Levelbar, ... </summary>
+      <description>Switch Button Border, Levelbar, ... </description>
+    </key>
+
+    <key name="accent-color-accent-gradient-color-first" type="s">
+      <default>"rgb(75,146,231)"</default>
+      <summary>Gradient Color 1 [ Check and Radio Button, ... ]</summary>
+      <description>Gradient Color 1 [ Check and Radio Button, ... ]</description>
+    </key>
+
+    <key name="accent-color-accent-gradient-color-second" type="s">
+      <default>"rgb(93,157,233)"</default>
+      <summary>Gradient Color 2 [ Check and Radio Button Hover, ... ]</summary>
+      <description>Gradient Color 2 [ Check and Radio Button Hover, ... ]</description>
+    </key>
+
+    <key name="accent-color-accent-gradient-color-third" type="s">
+      <default>"rgb(71,129,230)"</default>
+      <summary>Gradient Color 3 [ Check and Radio Button Hover, ... ]</summary>
+      <description>Gradient Color 3 [ Check and Radio Button Hover, ... ]</description>
+    </key>
+
+    <key name="accent-color-accent-gradient-color-fourth" type="s">
+      <default>"rgb(98,159,234)"</default>
+      <summary>Gradient Color 4</summary>
+      <description>Gradient Color 4</description>
+    </key>
+
+    <key name="accent-color-accent-gradient-color-fifth" type="s">
+      <default>"rgb(57,135,229)"</default>
+      <summary>Gradient Color 5 [ Suggested Action Button Hover, ... ]</summary>
+      <description>Gradient Color 5 [ Suggested Action Button Hover, ... ]</description>
+    </key>
+
+    <key name="accent-color-accent-gradient-color-sixth" type="s">
+      <default>"rgb(35,121,226)"</default>
+      <summary>Gradient Color 6 [ Suggested Action Button, ... ]</summary>
+      <description>Gradient Color 6 [ Suggested Action Button, ... ]</description>
+    </key>
+
+    <key name="accent-color-accent-active-hover-color" type="s">
+      <default>"rgb(52,124,241)"</default>
+      <summary>Active Hover Color</summary>
+      <description>Active Hover Color</description>
+    </key>
+
+    <key name="nautilus-disk-space-used-color" type="s">
+      <default>"rgb(114,159,245)"</default>
+      <summary>Nautilus Disk Space Used Color</summary>
+      <description>Nautilus Disk Space Used Color</description>
+    </key>
+
+    <key name="shell-panel-bottom-border-color" type="s">
+      <default>"rgb(31,118,245)"</default>
+      <summary>Shell Panel Button Bottom Border Color</summary>
+      <description>Shell Panel Button Bottom Border Color</description>
+    </key>
+
+    <key name="shell-button-focus-color" type="s">
+      <default>"rgba(27, 106, 223,0.6)"</default>
+      <summary>Shell Button Focus Color</summary>
+      <description>Shell Button Focus Color</description>
+    </key>
+
+    <key name="accent-color-accent-gradient-color-seventh" type="s">
+      <default>"rgb(44,127,227)"</default>
+      <summary>Gradient Color 7 [ Selected Headerbar, ... ]</summary>
+      <description>Gradient Color 7 [ Selected Headerbar, ... ]</description>
+    </key>
+        
+    <!--  =============================================================================   Extension Variables  =========================================================================================== -->
+
+    <key name="reload-signal" type="b">
+      <default>false</default>
+      <summary>Signals the extension to reload </summary>
+      <description>Signals the extension to reload</description>
+    </key>
+     
+  </schema>
+  
+</schemalist>

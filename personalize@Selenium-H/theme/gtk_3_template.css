@@ -1,0 +1,201 @@
+/*
+PERSONALIZE GNOME EXTENSION MODIFIED GTK-3 THEME 
+================================================
+
+This file is automatically moodified by prefs.js to when theme options are modified.
+
+This file is based on Adwaita theme from gtk Project https://www.gtk.org/ .
+
+*/
+
+/*Theme_Variant*/@import url("resource:///org/gtk/libgtk/theme/Adwaita/gtk-contained-dark.css");
+
+* { -gtk-secondary-caret-color: #3584e4/*Accent_Color_selected_bg_color*/; }
+.gtkstyle-fallback:selected { background-color: #3584e4/*Accent_Color_selected_bg_color*/; }
+label selection { background-color: #3584e4/*Accent_Color_selected_bg_color*/; }
+spinbutton:focus:not(.vertical), entry:focus { box-shadow: inset 0 0 0 1px #3584e4/*Accent_Color_selected_bg_color*/; border-color: #3584e4/*Accent_Color_selected_bg_color*/; }
+spinbutton:not(.vertical) image:active, entry image:active { color: #3584e4/*Accent_Color_selected_bg_color*/; }
+.osd spinbutton:focus:not(.vertical), .osd entry:focus { border-color: #3584e4/*Accent_Color_selected_bg_color*/; box-shadow: inset 0 0 0 1px #3584e4/*Accent_Color_selected_bg_color*/; }
+spinbutton:not(.vertical) progress, entry progress { border-color: #3584e4/*Accent_Color_selected_bg_color*/; }
+.linked:not(.vertical) > spinbutton:focus:not(.vertical) + spinbutton:not(.vertical), .linked:not(.vertical) > spinbutton:focus:not(.vertical) + button, .linked:not(.vertical) > spinbutton:focus:not(.vertical) + combobox > box > button.combo, .linked:not(.vertical) > spinbutton:focus:not(.vertical) + entry, .linked:not(.vertical) > entry:focus + button, .linked:not(.vertical) > entry:focus + combobox > box > button.combo, .linked:not(.vertical) > entry:focus + spinbutton:not(.vertical), .linked:not(.vertical) > entry:focus + entry { border-left-color: #3584e4/*Accent_Color_selected_bg_color*/; }
+.linked.vertical > spinbutton:not(.vertical) + spinbutton:focus:not(:only-child):not(.vertical), .linked.vertical > spinbutton:not(.vertical) + entry:focus:not(:only-child), .linked.vertical > entry + spinbutton:focus:not(:only-child):not(.vertical), .linked.vertical > entry + entry:focus:not(:only-child) { border-top-color: #3584e4/*Accent_Color_selected_bg_color*/; }
+.linked.vertical > spinbutton:focus:not(:only-child):not(.vertical) + spinbutton:not(.vertical), .linked.vertical > spinbutton:focus:not(:only-child):not(.vertical) + entry, .linked.vertical > spinbutton:focus:not(:only-child):not(.vertical) + button, .linked.vertical > spinbutton:focus:not(:only-child):not(.vertical) + combobox > box > button.combo, .linked.vertical > entry:focus:not(:only-child) + spinbutton:not(.vertical), .linked.vertical > entry:focus:not(:only-child) + entry, .linked.vertical > entry:focus:not(:only-child) + button, .linked.vertical > entry:focus:not(:only-child) + combobox > box > button.combo { border-top-color: #3584e4/*Accent_Color_selected_bg_color*/; }
+treeview entry.flat:focus, treeview entry:focus { border-color: #3584e4/*Accent_Color_selected_bg_color*/; }
+.entry-tag { background-color: #3584e4/*Accent_Color_selected_bg_color*/; }
+:backdrop .entry-tag { background-color: #3584e4/*Accent_Color_selected_bg_color*/; }
+:not(:backdrop) .entry-tag.button:hover { border: 1px solid #3584e4/*Accent_Color_selected_bg_color*/; }
+:not(:backdrop) .entry-tag.button:active { background-color: #3584e4/*Accent_Color_selected_bg_color*/; }
+@keyframes needs_attention { from { background-image: -gtk-gradient(radial, center center, 0, center center, 0.01, to(#3584e4/*Accent_Color_selected_bg_color*/), to(transparent)); }
+  to { background-image: -gtk-gradient(radial, center center, 0, center center, 0.5, to(#3584e4/*Accent_Color_selected_bg_color*/), to(transparent)); } }
+button.suggested-action { background-image: linear-gradient(to top, #2379e2/*Accent_Color_accent_gradient_color_sixth*/ 2px, #3584e4/*Accent_Color_selected_bg_color*/); }
+button.suggested-action.flat { color: #3584e4/*Accent_Color_selected_bg_color*/; }
+button.suggested-action:hover { background-image: linear-gradient(to top, #3584e4/*Accent_Color_selected_bg_color*/, #3987e5/*Accent_Color_accent_gradient_color_fifth*/ 1px); }
+button.suggested-action:backdrop, button.suggested-action.flat:backdrop { border-color: #3584e4/*Accent_Color_selected_bg_color*/; background-image: image(#3584e4/*Accent_Color_selected_bg_color*/); }
+.osd button.suggested-action:active:backdrop, .osd button.suggested-action:active, .osd button.suggested-action:checked:backdrop, .osd button.suggested-action:checked { background-image: image(#3584e4/*Accent_Color_selected_bg_color*/); }
+stacksidebar row.needs-attention > label, .stack-switcher > button.needs-attention > label, .stack-switcher > button.needs-attention > image { background-image: -gtk-gradient(radial, center center, 0, center center, 0.5, to(#3584e4/*Accent_Color_selected_bg_color*/), to(transparent)), -gtk-gradient(radial, center center, 0, center center, 0.5, to(rgba(255, 255, 255, 0.769231)), to(transparent)); }
+button:link > label:hover, button:visited > label:hover, button:hover:link, button:hover:visited, *:link:hover { color: #3584e4/*Accent_Color_selected_bg_color*/; }
+.selection-mode .titlebar:not(headerbar), .selection-mode.titlebar:not(headerbar), .selection-mode headerbar, headerbar.selection-mode { background: #3584e4/*Accent_Color_selected_bg_color*/ linear-gradient(to top, #2c7fe3/*Accent_Color_accent_gradient_color_seventh*/, #3987e5/*Accent_Color_accent_gradient_color_fifth*/); }
+.selection-mode .titlebar:backdrop:not(headerbar), .selection-mode.titlebar:backdrop:not(headerbar), .selection-mode headerbar:backdrop, headerbar.selection-mode:backdrop { background-color: #3584e4/*Accent_Color_selected_bg_color*/; }
+.selection-mode .titlebar:not(headerbar) button, .selection-mode.titlebar:not(headerbar) button, .selection-mode headerbar button, headerbar.selection-mode button { background-image: linear-gradient(to top, #2379e2/*Accent_Color_accent_gradient_color_sixth*/ 2px, #3584e4/*Accent_Color_selected_bg_color*/); }
+.selection-mode .titlebar:not(headerbar) button:hover, .selection-mode.titlebar:not(headerbar) button:hover, .selection-mode headerbar button:hover, headerbar.selection-mode button:hover { background-image: linear-gradient(to top, #3584e4/*Accent_Color_selected_bg_color*/, #3987e5/*Accent_Color_accent_gradient_color_fifth*/ 1px); }
+.selection-mode .titlebar:not(headerbar) button:backdrop, .selection-mode.titlebar:not(headerbar) button:backdrop, .selection-mode headerbar button.flat:backdrop, .selection-mode headerbar button:backdrop, headerbar.selection-mode button.flat:backdrop, headerbar.selection-mode button:backdrop { border-color: #3584e4/*Accent_Color_selected_bg_color*/; background-image: image(#3584e4/*Accent_Color_selected_bg_color*/); }
+treeview.view.progressbar { background-color: #3584e4/*Accent_Color_selected_bg_color*/; background-image: image(#3584e4/*Accent_Color_selected_bg_color*/); box-shadow: none; }
+treeview.view.progressbar:selected:focus, treeview.view.progressbar:selected { color: #3584e4/*Accent_Color_selected_bg_color*/; }
+treeview.view.progressbar:selected:focus:backdrop, treeview.view.progressbar:selected:backdrop { color: #3584e4/*Accent_Color_selected_bg_color*/; }
+treeview.view button.dnd:active, treeview.view button.dnd:selected, treeview.view button.dnd:hover, treeview.view button.dnd, treeview.view header.button.dnd:active, treeview.view header.button.dnd:selected, treeview.view header.button.dnd:hover, treeview.view header.button.dnd { background-color: #3584e4/*Accent_Color_selected_bg_color*/; }
+treeview.view acceleditor > label { background-color: #3584e4/*Accent_Color_selected_bg_color*/; }
+menubar > menuitem:hover, .menubar > menuitem:hover { box-shadow: inset 0 -3px #3584e4/*Accent_Color_selected_bg_color*/; }
+menu menuitem:hover, .menu menuitem:hover, .context-menu menuitem:hover { background-color: #3584e4/*Accent_Color_selected_bg_color*/; }
+notebook > header.top > tabs > tab:checked { box-shadow: inset 0 -4px #3584e4/*Accent_Color_selected_bg_color*/; }
+notebook > header.bottom > tabs > tab:checked { box-shadow: inset 0 4px #3584e4/*Accent_Color_selected_bg_color*/; }
+notebook > header.left > tabs > tab:checked { box-shadow: inset -4px 0 #3584e4/*Accent_Color_selected_bg_color*/; }
+notebook > header.right > tabs > tab:checked { box-shadow: inset 4px 0 #3584e4/*Accent_Color_selected_bg_color*/; }
+switch:checked { background-color: #3584e4/*Accent_Color_selected_bg_color*/; }
+switch:backdrop:checked { background-color: #3584e4/*Accent_Color_selected_bg_color*/; }
+.view.content-view.check:not(list), iconview.content-view.check:not(list), .content-view:not(list) check { background-color: #3584e4/*Accent_Color_selected_bg_color*/; }
+.view.content-view.check:hover:not(list), iconview.content-view.check:hover:not(list), .content-view:not(list) check:hover { background-color: #3584e4/*Accent_Color_selected_bg_color*/; }
+.view.content-view.check:active:not(list), iconview.content-view.check:active:not(list), .content-view:not(list) check:active { background-color: #3584e4/*Accent_Color_selected_bg_color*/; }
+.view.content-view.check:checked:not(list), iconview.content-view.check:checked:not(list), .content-view:not(list) check:checked { background-color: #3584e4/*Accent_Color_selected_bg_color*/; }
+.view.content-view.check:checked:hover:not(list), iconview.content-view.check:checked:hover:not(list), .content-view:not(list) check:checked:hover { background-color: #3584e4/*Accent_Color_selected_bg_color*/; }
+.view.content-view.check:checked:active:not(list), iconview.content-view.check:checked:active:not(list), .content-view:not(list) check:checked:active { background-color: #3584e4/*Accent_Color_selected_bg_color*/; }
+check:checked, radio:checked { background-image: linear-gradient(to bottom, #4b92e7/*Accent_Color_accent_gradient_color_first*/ 20%, #3584e4/*Accent_Color_selected_bg_color*/ 90%); border-color: #3584e4/*Accent_Color_selected_bg_color*/; }
+check:checked:backdrop, radio:checked:backdrop { background-image: image(#3584e4/*Accent_Color_selected_bg_color*/); }
+check:indeterminate, radio:indeterminate { background-image: linear-gradient(to bottom, #4b92e7/*Accent_Color_accent_gradient_color_first*/ 20%, #3584e4/*Accent_Color_selected_bg_color*/ 90%); border-color: #3584e4/*Accent_Color_selected_bg_color*/;  }
+check:indeterminate:backdrop, radio:indeterminate:backdrop { background-image: image(#3584e4/*Accent_Color_selected_bg_color*/); }
+progressbar progress, scale highlight {background-color: #3584e4/*Accent_Color_selected_bg_color*/; }
+progressbar progress:backdrop, scale highlight:backdrop { border-color: #3584e4/*Accent_Color_selected_bg_color*/; }
+levelbar block.high, levelbar block:not(.empty) { background-color: #3584e4/*Accent_Color_selected_bg_color*/; }
+levelbar block.high:backdrop, levelbar block:not(.empty):backdrop { border-color: #3584e4/*Accent_Color_selected_bg_color*/; }
+row.activatable:selected:backdrop { background-color: #3584e4/*Accent_Color_selected_bg_color*/; }
+placessidebar row.sidebar-new-bookmark-row { color: #3584e4/*Accent_Color_selected_bg_color*/; }
+paned > separator:selected { background-image: image(#3584e4/*Accent_Color_selected_bg_color*/); }
+.view:selected:focus, .view:selected, .view text:selected:focus, textview text:selected:focus, .view text:selected, textview text:selected, .view text selection:focus, .view text selection, textview text selection:focus, textview text selection, iconview:selected:focus, iconview:selected, iconview text selection:focus, .view text selection, iconview text selection, flowbox flowboxchild:selected, entry selection, modelbutton.flat:selected, .menuitem.button.flat:selected, spinbutton:not(.vertical) selection, treeview.view:selected:focus, treeview.view:selected, row:selected, calendar:selected { background-color: #3584e4/*Accent_Color_selected_bg_color*/; }
+button.emoji-section:checked { border-color: #3584e4/*Accent_Color_selected_bg_color*/; }
+popover.emoji-picker .emoji :hover { background: #3584e4/*Accent_Color_selected_bg_color*/;  }
+
+row:selected button { border-color: #185fb4/*Accent_Color_selected_borders_color*/; }
+.selection-mode .titlebar:not(headerbar), .selection-mode.titlebar:not(headerbar), .selection-mode headerbar, headerbar.selection-mode { border-color: #185fb4/*Accent_Color_selected_borders_color*/; }
+.selection-mode .titlebar:not(headerbar) button:backdrop, .selection-mode.titlebar:not(headerbar) button:backdrop, .selection-mode headerbar button.flat:backdrop, .selection-mode headerbar button:backdrop, headerbar.selection-mode button.flat:backdrop, headerbar.selection-mode button:backdrop { border-color: #185fb4/*Accent_Color_selected_borders_color*/; }
+.selection-mode .titlebar:not(headerbar) button:backdrop:active, .selection-mode .titlebar:not(headerbar) button:backdrop:checked, .selection-mode.titlebar:not(headerbar) button:backdrop:active, .selection-mode.titlebar:not(headerbar) button:backdrop:checked, .selection-mode headerbar button.flat:backdrop:active, .selection-mode headerbar button.flat:backdrop:checked, .selection-mode headerbar button:backdrop:active, .selection-mode headerbar button:backdrop:checked, headerbar.selection-mode button.flat:backdrop:active, headerbar.selection-mode button.flat:backdrop:checked, headerbar.selection-mode button:backdrop:active, headerbar.selection-mode button:backdrop:checked { border-color: #185fb4/*Accent_Color_selected_borders_color*/; }
+.selection-mode .titlebar:not(headerbar) button:backdrop:disabled, .selection-mode.titlebar:not(headerbar) button:backdrop:disabled, .selection-mode headerbar button.flat:backdrop:disabled, .selection-mode headerbar button:backdrop:disabled, headerbar.selection-mode button.flat:backdrop:disabled, headerbar.selection-mode button:backdrop:disabled { border-color: #185fb4/*Accent_Color_selected_borders_color*/; }
+.selection-mode .titlebar:not(headerbar) button:backdrop:disabled:active, .selection-mode .titlebar:not(headerbar) button:backdrop:disabled:checked, .selection-mode.titlebar:not(headerbar) button:backdrop:disabled:active, .selection-mode.titlebar:not(headerbar) button:backdrop:disabled:checked, .selection-mode headerbar button:backdrop:disabled:active, .selection-mode headerbar button:backdrop:disabled:checked, headerbar.selection-mode button:backdrop:disabled:active, headerbar.selection-mode button:backdrop:disabled:checked { border-color: #185fb4/*Accent_Color_selected_borders_color*/; }
+.selection-mode .titlebar:not(headerbar) button.suggested-action, .selection-mode.titlebar:not(headerbar) button.suggested-action, .selection-mode headerbar button.suggested-action, headerbar.selection-mode button.suggested-action { border-color: #185fb4/*Accent_Color_selected_borders_color*/; }
+.selection-mode .titlebar:not(headerbar) button.suggested-action:hover, .selection-mode.titlebar:not(headerbar) button.suggested-action:hover, .selection-mode headerbar button.suggested-action:hover, headerbar.selection-mode button.suggested-action:hover { border-color: #185fb4/*Accent_Color_selected_borders_color*/; }
+.selection-mode .titlebar:not(headerbar) button.suggested-action:active, .selection-mode.titlebar:not(headerbar) button.suggested-action:active, .selection-mode headerbar button.suggested-action:active, headerbar.selection-mode button.suggested-action:active { border-color: #185fb4/*Accent_Color_selected_borders_color*/; }
+.selection-mode .titlebar:not(headerbar) button.suggested-action:disabled, .selection-mode.titlebar:not(headerbar) button.suggested-action:disabled, .selection-mode headerbar button.suggested-action:disabled, headerbar.selection-mode button.suggested-action:disabled { border-color: #185fb4/*Accent_Color_selected_borders_color*/; }
+.selection-mode .titlebar:not(headerbar) button.suggested-action:backdrop, .selection-mode.titlebar:not(headerbar) button.suggested-action:backdrop, .selection-mode headerbar button.suggested-action:backdrop, headerbar.selection-mode button.suggested-action:backdrop { border-color: #185fb4/*Accent_Color_selected_borders_color*/; }
+.selection-mode .titlebar:not(headerbar) button.suggested-action:backdrop:disabled, .selection-mode.titlebar:not(headerbar) button.suggested-action:backdrop:disabled, .selection-mode headerbar button.suggested-action:backdrop:disabled, headerbar.selection-mode button.suggested-action:backdrop:disabled { border-color: #185fb4/*Accent_Color_selected_borders_color*/; }
+treeview.view:drop(active) { border-color: #185fb4/*Accent_Color_selected_borders_color*/; }
+treeview.view check:selected:focus, treeview.view check:selected, treeview.view radio:selected:focus, treeview.view radio:selected { border-color: #185fb4/*Accent_Color_selected_borders_color*/; }
+row:selected progressbar trough, progressbar row:selected trough, row:selected scale fill, scale row:selected fill, row:selected scale trough, scale row:selected trough { border-color: #185fb4/*Accent_Color_selected_borders_color*/; }
+progressbar progress, scale highlight { border: 1px solid #185fb4/*Accent_Color_selected_borders_color*/; }
+row:selected progressbar progress, progressbar row:selected progress, row:selected scale highlight, scale row:selected highlight { border-color: #185fb4/*Accent_Color_selected_borders_color*/; }
+scale slider:active { border-color: #185fb4/*Accent_Color_selected_borders_color*/; }
+row:selected scale slider:disabled, row:selected scale slider { border-color: #185fb4/*Accent_Color_selected_borders_color*/; }
+
+.rubberband, rubberband, .content-view rubberband, .content-view .rubberband, treeview.view rubberband, flowbox rubberband { border: 1px solid #1b6acb/*Accent_Color_link_color*/; }
+button.suggested-action { border-color: #1b6acb/*Accent_Color_link_color*/; }
+button.suggested-action:hover { border-color: #1b6acb/*Accent_Color_link_color*/; }
+button.suggested-action:active, button.suggested-action:checked { border-color: #1b6acb/*Accent_Color_link_color*/; }
+button.suggested-action:disabled:active, button.suggested-action:disabled:checked { border-color: #1b6acb/*Accent_Color_link_color*/; }
+button:link > label, button:visited > label, button:link, button:visited, *:link { color: #1b6acb/*Accent_Color_link_color*/; }
+button:link > label:active, button:visited > label:active, button:active:link, button:active:visited, *:link:active { color: #1b6acb/*Accent_Color_link_color*/; }
+.selection-mode .titlebar:not(headerbar) button, .selection-mode.titlebar:not(headerbar) button, .selection-mode headerbar button, headerbar.selection-mode button { border-color: #1b6acb/*Accent_Color_link_color*/; }
+.selection-mode .titlebar:not(headerbar) button:hover, .selection-mode.titlebar:not(headerbar) button:hover, .selection-mode headerbar button:hover, headerbar.selection-mode button:hover { border-color: #1b6acb/*Accent_Color_link_color*/; }
+.selection-mode .titlebar:not(headerbar) button:active, .selection-mode .titlebar:not(headerbar) button:checked, .selection-mode.titlebar:not(headerbar) button:active, .selection-mode.titlebar:not(headerbar) button:checked, .selection-mode headerbar button:active, .selection-mode headerbar button:checked, .selection-mode headerbar button.toggle:checked, .selection-mode headerbar button.toggle:active, headerbar.selection-mode button:active, headerbar.selection-mode button:checked, headerbar.selection-mode button.toggle:checked, headerbar.selection-mode button.toggle:active { border-color: #1b6acb/*Accent_Color_link_color*/; }
+.selection-mode .titlebar:not(headerbar) button:disabled, .selection-mode.titlebar:not(headerbar) button:disabled, .selection-mode headerbar button:disabled, headerbar.selection-mode button:disabled { border-color: #1b6acb/*Accent_Color_link_color*/; }
+.selection-mode .titlebar:not(headerbar) button:disabled:active, .selection-mode .titlebar:not(headerbar) button:disabled:checked, .selection-mode.titlebar:not(headerbar) button:disabled:active, .selection-mode.titlebar:not(headerbar) button:disabled:checked, .selection-mode headerbar button:disabled:active, .selection-mode headerbar button:disabled:checked, headerbar.selection-mode button:disabled:active, headerbar.selection-mode button:disabled:checked { border-color: #1b6acb/*Accent_Color_link_color*/; }
+menubar > menuitem:hover, .menubar > menuitem:hover { color: #1b6acb/*Accent_Color_link_color*/; }
+scrollbar slider:hover:active { background-color: #1b6acb/*Accent_Color_link_color*/; }
+scrollbar button:active, scrollbar button:checked { color: #1b6acb/*Accent_Color_link_color*/; }
+infobar.info *:link, infobar.question *:link, infobar.warning *:link, infobar.error *:link { color: #1b6acb/*Accent_Color_link_color*/; }
+
+button.suggested-action { border-bottom-color: #15539e/*Accent_Color_link_visited_color*/; }
+button.suggested-action:hover { border-bottom-color: #15539e/*Accent_Color_link_visited_color*/; }
+button:link > label:visited, button:visited > label:visited, button:visited, *:link:visited { color: #15539e/*Accent_Color_link_visited_color*/; }
+.selection-mode .titlebar:not(headerbar) button, .selection-mode.titlebar:not(headerbar) button, .selection-mode headerbar button, headerbar.selection-mode button { border-bottom-color: #15539e/*Accent_Color_link_visited_color*/; }
+.selection-mode .titlebar:not(headerbar) button:hover, .selection-mode.titlebar:not(headerbar) button:hover, .selection-mode headerbar button:hover, headerbar.selection-mode button:hover { border-bottom-color: #15539e/*Accent_Color_link_visited_color*/; }
+switch:checked { border-color: #15539e/*Accent_Color_link_visited_color*/; }
+switch:backdrop:checked { border-color: #15539e/*Accent_Color_link_visited_color*/; }
+switch:checked > slider { border: 1px solid #15539e/*Accent_Color_link_visited_color*/; }
+switch:backdrop:checked > slider { border-color: #15539e/*Accent_Color_link_visited_color*/; }
+row:selected switch { box-shadow: none; border-color: #15539e/*Accent_Color_link_visited_color*/; }
+row:selected switch:backdrop { border-color: #15539e/*Accent_Color_link_visited_color*/; }
+row:selected switch > slider:checked, row:selected switch > slider { border-color: #15539e/*Accent_Color_link_visited_color*/; }
+row:selected check, row:selected radio { border-color: #15539e/*Accent_Color_link_visited_color*/; }
+levelbar block.high, levelbar block:not(.empty) { border-color: #15539e/*Accent_Color_link_visited_color*/; background-color: #3584e4; }
+separator.sidebar.selection-mode, .selection-mode separator.sidebar { background-color: #15539e/*Accent_Color_link_visited_color*/; }
+
+check:checked:hover, radio:checked:hover { background-image: linear-gradient(to bottom, #5d9de9/*Accent_Color_accent_gradient_color_second*/ 10%, #478fe6/*Accent_Color_accent_gradient_color_third*/ 90%); }
+check:indeterminate:hover, radio:indeterminate:hover { background-image: linear-gradient(to bottom, #5d9de9/*Accent_Color_accent_gradient_color_second*/ 10%, #478fe6/*Accent_Color_accent_gradient_color_third*/ 90%); }
+
+.entry-tag:hover { background-color: #629fea/*Accent_Color_accent_gradient_color_fourth*/; }
+
+row.activatable.has-open-popup:selected, row.activatable:selected:hover { background-color: #347cd3/*Accent_Color_accent_active_hover_color*/; }
+
+
+/* Nautilus 
+   ========
+*/
+
+.disk-space-display {
+    border-style: solid;
+    border-width: 2px;
+}
+
+.disk-space-display.unknown {
+    background-color: #888a85;
+    border-color: shade(#888a85, 0.7);
+    color: #888a85;
+}
+.disk-space-display.unknown.border {
+    color: shade(#888a85, 0.7);
+}
+
+.disk-space-display.used {
+    background-color: #729fcf/*Nautilus_Disk_Space_Used_Color*/;
+    border-color: shade(#729fcf/*Nautilus_Disk_Space_Used_Color*/, 0.7);
+    color: #729fcf/*Nautilus_Disk_Space_Used_Color*/;
+}
+.disk-space-display.used.border {
+    color: shade(#729fcf/*Nautilus_Disk_Space_Used_Color*/, 0.7);
+}
+
+.disk-space-display.free {
+    background-color: #eeeeec;
+    border-color: shade(#eeeeec, 0.7);
+    color: #eeeeec;
+}
+.disk-space-display.free.border {
+    color: shade(#eeeeec, 0.7);
+}
+
+/* Gedit 
+   =====
+*/
+
+.gedit-search-slider {
+    background-color: @theme_base_color;
+    padding: 6px;
+    border-color: @borders;
+    border-radius: 0 0 3px 3px;
+    border-width: 0 1px 1px 1px;
+    border-style: solid;
+}
+
+.gedit-search-entry-occurrences-tag {
+    background-color: @theme_base_color;
+    background-image: none;
+    color: shade (@theme_unfocused_fg_color, 0.8);
+    border: 0px;
+    margin: 2px;
+    padding: 2px;
+}
+
+.background .titlebar:backdrop, .background .titlebar { border-top-left-radius: /*Border_Curvature*/0px; border-top-right-radius: /*Border_Curvature*/0px; }
+scrollbar slider { border-radius: /*Border_Curvature*/0px; }
+decoration { border-radius: /*Border_Curvature*/0px /*Border_Curvature*/0px 0 0; }
+messagedialog.csd decoration { border-radius: /*Border_Curvature*/0px; }
+
+@define-color theme_selected_bg_color #3584e4/*Accent_Color_selected_bg_color*/;
+@define-color theme_unfocused_selected_bg_color #3584e4/*Accent_Color_selected_bg_color*/;
