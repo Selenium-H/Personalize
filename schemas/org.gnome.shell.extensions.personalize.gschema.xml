@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-Version 1.00
+Version 1.01
 ============
  
 -->
@@ -12,6 +12,12 @@ Version 1.00
       <default>"gtk-contained.css"</default>
       <summary>Theme Variant</summary>
       <description>Theme Variant</description>
+    </key>
+
+    <key name="allow-dark" type="b">    
+      <default>true</default>
+      <summary>Allow Apps to switch to Dark Theme</summary>
+      <description>Allow Apps to switch to Dark Theme</description>
     </key>
     
     <key name="accent-color" type="s">

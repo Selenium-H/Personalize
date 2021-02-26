@@ -1,6 +1,6 @@
 /*
 
-Versopm 1.00
+Versopm 1.01
 ============
 
 */
@@ -15,7 +15,7 @@ let extensionSettings = null;
 
 function enable() {
 
-  looksManager= new LooksManager_PersonalizeExtension();
+  looksManager = new LooksManager_PersonalizeExtension();
   looksManager.startLooksManager();
 
 }
@@ -52,7 +52,6 @@ const LooksManager_PersonalizeExtension = class LooksManager_PersonalizeExtensio
   
   startLooksManager() {
   
-    this.previousGtkTheme = this.themeSettings.get_string("gtk-theme");
     this.reloadTheme();   
     this.reloadSig = extensionSettings.connect("changed::reload-signal", () => {
       this.reloadTheme();
@@ -63,7 +62,7 @@ const LooksManager_PersonalizeExtension = class LooksManager_PersonalizeExtensio
   undoChanges() {
   
     extensionSettings.disconnect(this.reloadSig);
-    this.themeSettings.set_string("gtk-theme", this.previousGtkTheme);
+    this.themeSettings.set_string("gtk-theme", "Adwaita");
     Main.setThemeStylesheet(null);
     Main.loadTheme();
     

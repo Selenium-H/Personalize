@@ -1,13 +1,13 @@
 {
 "name": "Personalize", 
-"description": "Personalize the looks of GNOME Desktop.\n\nSet the theme variant, window corner curvature and select accent color.\nThe Colors section contains colors generated from the selected accent color.\nThe color generation is not accurate. However, individual colors can be customised.\n\nNot all settings are applied automatically.\nPress Refresh button on the left of the headerbar to reload the extension \n\nCurrently, only Adwaita theme is supported. Also, Adwaita and Adwaita-dark gtk-2 themes\nmust be installed for the extension to work properly. Not all widgets are themed perfectly.\n", 
+"description": "Personalize the looks of GNOME Desktop.\n\nSet the theme variant, window corner curvature and select accent color.\nThe Colors section contains colors generated from the selected accent color.\nThe color generation is not accurate. However, individual colors can be customised.\n\nNot all settings are applied automatically.\nPress Refresh buttion on the left of the headerbar to reload the extension \n\nCurrently, only Adwaita theme is supported. Also, Adwaita and Adwaita-dark gtk-2 themes\nmust be installed for the extension to work properly. Not all widgets are themed perfectly.\n", 
 "comment": "Personalize GNOME theme and customize them.",
 "uuid": "personalize@Selenium-H", 
 "settings-schema": "org.gnome.shell.extensions.personalize", 
 "shell-version": [
 	"3.38"
 ],
-"status" : " ",
+"status" : " (Ongoing)",
 "url": "https://github.com/Selenium-H/Personalize", 
-"version": 1
+"version": 1.01
 }
