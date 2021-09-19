@@ -5,9 +5,11 @@
 "uuid": "personalize@Selenium-H", 
 "settings-schema": "org.gnome.shell.extensions.personalize", 
 "shell-version": [
-	"3.38"
+	"3.38",
+	"40",
+	"41"
 ],
-"status" : " (Ongoing)",
+"status" : " (Experimental)",
 "url": "https://github.com/Selenium-H/Personalize", 
-"version": 1.01
+"version": 1.02
 }

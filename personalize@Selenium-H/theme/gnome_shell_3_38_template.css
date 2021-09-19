@@ -1,0 +1,81 @@
+/*
+PERSONALIZE GNOME EXTENSION MODIFIED GNOME SHELL THEME 
+======================================================
+
+This file is automatically moodified by prefs.js to when theme options are modified.
+
+This file is based on default GNOME Shell theme from GNOME project https://wiki.gnome.org/Projects/GnomeShell
+
+*/
+
+.lg-dialog .shell-link:active { color: #3584e4/*Accent_Color_selected_bg_color*/; }
+
+.window-close:active { background-color: #185fb4/*Accent_Color_selected_borders_color*/; }
+.keyboard-key.enter-key:active { background-color: #185fb4/*Accent_Color_selected_borders_color*/; }
+.login-dialog .modal-dialog-button:default:active { background-color: #185fb4/*Accent_Color_selected_borders_color*/; border-color: #185fb4/*Accent_Color_selected_borders_color*/; }
+
+StEntry { selection-background-color: #1b6acb/*Accent_Color_link_color*/; }
+StEntry:focus { box-shadow: inset 0 0 0 1px #1b6acb/*Accent_Color_link_color*/; }
+.slider { -barlevel-active-background-color: #1b6acb/*Accent_Color_link_color*/; }
+StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { background-color: #1b6acb/*Accent_Color_link_color*/; }
+.popup-menu-item:active { background-color: #1b6acb/*Accent_Color_link_color*/; }
+.calendar .calendar-today { background-color: #1b6acb/*Accent_Color_link_color*/; }
+.calendar .calendar-today:active, .calendar .calendar-today:selected { background-color: #1b6acb/*Accent_Color_link_color*/; }
+.candidate-box:selected, .candidate-box:hover { background-color: #1b6acb/*Accent_Color_link_color*/; }
+.summary-source-counter { background-color: #1b6acb/*Accent_Color_link_color*/; }
+.audio-selection-device:active { background-color: #1b6acb/*Accent_Color_link_color*/; }
+.nm-dialog-item:selected { background-color: #1b6acb/*Accent_Color_link_color*/; }
+.cycler-highlight { border: 5px solid #1b6acb/*Accent_Color_link_color*/; }
+.ws-switcher-active-up, .ws-switcher-active-down, .ws-switcher-active-left, .ws-switcher-active-right { background-color: #1b6acb/*Accent_Color_link_color*/; }
+.window-close { background-color: #1b6acb/*Accent_Color_link_color*/; }
+.search-entry:focus { border-color: #1b6acb/*Accent_Color_link_color*/;  }
+.workspace-thumbnail-indicator { border: 3px solid #1b6acb/*Accent_Color_link_color*/; }
+.pie-timer { -pie-border-color: #1b6acb/*Accent_Color_link_color*/; }
+.magnifier-zoom-region { border: 2px solid #1b6acb/*Accent_Color_link_color*/; }
+.select-area-rubberband { border: 1px solid #1b6acb/*Accent_Color_link_color*/; }
+.tile-preview { border: 1px solid #1b6acb/*Accent_Color_link_color*/; }
+.keyboard-key.shift-key-uppercase { color: #1b6acb/*Accent_Color_link_color*/; }
+.emoji-panel .keyboard-key:latched { background-color: #1b6acb/*Accent_Color_link_color*/; }
+.lg-dialog StEntry { selection-background-color: #1b6acb/*Accent_Color_link_color*/; }
+.login-dialog .modal-dialog-button:default { border-color: #1b6acb/*Accent_Color_link_color*/; }
+.login-dialog-user-list:expanded .login-dialog-user-list-item:selected { background-color: #1b6acb/*Accent_Color_link_color*/; }
+.login-dialog-user-list:expanded .login-dialog-user-list-item:logged-in { border-right: 2px solid #1b6acb/*Accent_Color_link_color*/; }
+
+.login-dialog .modal-dialog-button:default:insensitive { border-color: #15539e/*Accent_Color_link_visited_color*/; background-color: #15539e/*Accent_Color_link_visited_color*/; }
+
+.shell-link { color: #629fea/*Accent_Color_accent_gradient_color_fourth*/; }
+.url-highlighter { link-color: #629fea/*Accent_Color_accent_gradient_color_fourth*/; }
+.ripple-box { box-shadow: 0 0 2px 2px #629fea/*Accent_Color_accent_gradient_color_fourth*/; }
+.ripple-pointer-location { box-shadow: 0 0 2px 2px #629fea/*Accent_Color_accent_gradient_color_fourth*/; }
+.lg-dialog .shell-link { color: #629fea/*Accent_Color_accent_gradient_color_fourth*/; }
+
+.ws-switcher-active-up, .ws-switcher-active-down, .ws-switcher-active-left, .ws-switcher-active-right { border: 1px solid #1f76e1/*Accent_Color_panel_bottom_border_color*/; }
+#panel .panel-corner:active, #panel .panel-corner:overview, #panel .panel-corner:focus { -panel-corner-border-color: #1f76e1/*Accent_Color_panel_bottom_border_color*/; }
+#panel .panel-button:active, #panel .panel-button:overview, #panel .panel-button:focus, #panel .panel-button:checked { box-shadow: inset 0 -2px 0 0 #1f76e1/*Accent_Color_panel_bottom_border_color*/; }
+#panel .panel-button.clock-display:active .clock, #panel .panel-button.clock-display:overview .clock, #panel .panel-button.clock-display:focus .clock, #panel .panel-button.clock-display:checked .clock { box-shadow: inset 0 -2px 0 0 #1f76e1/*Accent_Color_panel_bottom_border_color*/; }
+.window-close:hover { background-color: #1f76e1/*Accent_Color_panel_bottom_border_color*/; }
+.emoji-panel .keyboard-key:latched { border-color: #1f76e1/*Accent_Color_panel_bottom_border_color*/; background-color: #1b6acb; }
+#LookingGlassDialog .notebook-tab:selected { box-shadow: inset 0 -2px 0 0 #1f76e1/*Accent_Color_panel_bottom_border_color*/; }
+.login-dialog .modal-dialog-button:default:hover, .login-dialog .modal-dialog-button:default:focus { background-color: #1f76e1/*Accent_Color_panel_bottom_border_color*/; background-color: #1f76e1/*Accent_Color_panel_bottom_border_color*/; border-color: #1f76e1/*Accent_Color_panel_bottom_border_color*/; }
+
+
+.app-folder-dialog .folder-name-container .edit-folder-button:focus, .button:focus { box-shadow: inset 0 0 0 2px rgba(27, 106, 203,/*Accent_Color_button_focus_color*/ 0.6); }
+.modal-dialog .modal-dialog-linked-button:focus, .hotplug-notification-item:focus, .notification-banner .notification-button:focus { box-shadow: inset 0 0 0 2px rgba(27, 106, 203,/*Accent_Color_button_focus_color*/ 0.6); }
+.events-section-title:focus { box-shadow: inset 0 0 0 2px rgba(27, 106, 203,/*Accent_Color_button_focus_color*/ 0.6); }
+.datemenu-today-button:focus { box-shadow: inset 0 0 0 2px rgba(27, 106, 203,/*Accent_Color_button_focus_color*/ 0.6); }
+.calendar:focus { box-shadow: inset 0 0 0 2px rgba(27, 106, 203,/*Accent_Color_button_focus_color*/ 0.6); }
+.events-button:focus { box-shadow: inset 0 0 0 2px rgba(27, 106, 203,/*Accent_Color_button_focus_color*/ 0.6); }
+.world-clocks-button:focus { box-shadow: inset 0 0 0 2px rgba(27, 106, 203,/*Accent_Color_button_focus_color*/ 0.6); }
+.weather-button:focus { box-shadow: inset 0 0 0 2px rgba(27, 106, 203,/*Accent_Color_button_focus_color*/ 0.6); }
+.message:focus { box-shadow: inset 0 0 0 2px rgba(27, 106, 203,/*Accent_Color_button_focus_color*/ 0.6); }
+.app-well-app:drop .overview-icon, .grid-search-result:drop .overview-icon { background-color: rgba(27, 106, 203,/*Accent_Color_button_focus_color*/ 0.85); }
+.show-apps:drop .overview-icon { background-color: rgba(27, 106, 203,/*Accent_Color_button_focus_color*/ 0.85); }
+.select-area-rubberband { background-color: rgba(27, 106, 203,/*Accent_Color_button_focus_color*/ 0.3); }
+.tile-preview { background-color: rgba(27, 106, 203,/*Accent_Color_button_focus_color*/ 0.5); }
+.keyboard-key:focus { box-shadow: inset 0 0 0 2px rgba(27, 106, 203,/*Accent_Color_button_focus_color*/ 0.6); }
+.keyboard-subkeys .keyboard-key:focus { box-shadow: inset 0 0 0 2px rgba(27, 106, 203,/*Accent_Color_button_focus_color*/ 0.6); }
+#unlockDialogNotifications StButton#vhandle:active, #unlockDialogNotifications StButton#hhandle:active { background-color: rgba(27, 106, 203,/*Accent_Color_button_focus_color*/ 0.5); }
+
+
+
+
