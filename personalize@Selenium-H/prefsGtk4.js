@@ -636,9 +636,9 @@ const ThemeUpdater_PersonalizeExtension = new GObject.Class({
 
     // Set proper default theme based on Gtk version.
     switch(Gtk.MINOR_VERSION) {
-      case "0":
-      case "1":
-      case "2":
+      case 0:
+      case 1:
+      case 2:
         if(variant == "gtk-contained.css") {
           this.fileData = this.fileData.replace("/*Theme_Variant*/@import url(\"resource:///org/gtk/libgtk/theme/Default/Default-dark.css\")", "/*Theme_Variant*/@import url(\"resource:///org/gtk/libgtk/theme/Adwaita/Adwaita.css\")");   
         } 
@@ -648,7 +648,7 @@ const ThemeUpdater_PersonalizeExtension = new GObject.Class({
         this.fileDataDark = this.fileDataDark.replace("/*Theme_Variant*/@import url(\"resource:///org/gtk/libgtk/theme/Default/Default-dark.css\")", "/*Theme_Variant*/@import url(\"resource:///org/gtk/libgtk/theme/Adwaita/Adwaita-dark.css\")");   
         break;        
         
-      case "3":
+      case 3:
       default:
         if(variant == "gtk-contained.css") {
           this.fileData = this.fileData.replace("/*Theme_Variant*/@import url(\"resource:///org/gtk/libgtk/theme/Default/Default-dark.css\")",     "/*Theme_Variant*/@import url(\"resource:///org/gtk/libgtk/theme/Default/Default-light.css\")");
