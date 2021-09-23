@@ -1,6 +1,6 @@
 /*
 
-Versopm 1.02
+Versopm 1.03
 ============
 
 */
@@ -629,14 +629,31 @@ const ThemeUpdater_PersonalizeExtension = new GObject.Class({
         GLib.spawn_command_line_sync("rm "+this.THEME_PATH+"/gtk-3.0/gtk-dark.css");
       }
     }
-
-    //Generate Gtk-4 Theme
+   
+    //Generate Gtk-4.0 Theme
     this.fileData     = String(GLib.file_get_contents( Extension.path+"/theme/gtk_4_template.css" )[1]);
     this.fileDataDark = String(GLib.file_get_contents( Extension.path+"/theme/gtk_4_template.css" )[1]);
 
-    if(variant == "gtk-contained.css") {
-      this.fileData = this.fileData.replace("/*Theme_Variant*/@import url(\"resource:///org/gtk/libgtk/theme/Default/Default-dark.css\")",     "/*Theme_Variant*/@import url(\"resource:///org/gtk/libgtk/theme/Default/Default-light.css\")");
-    } 
+    // Set proper default theme based on Gtk version.
+    switch(Gtk.MINOR_VERSION) {
+      case "0":
+      case "1":
+      case "2":
+        if(variant == "gtk-contained.css") {
+          this.fileData = this.fileData.replace("/*Theme_Variant*/@import url(\"resource:///org/gtk/libgtk/theme/Default/Default-dark.css\")", "/*Theme_Variant*/@import url(\"resource:///org/gtk/libgtk/theme/Adwaita/Adwaita.css\")");   
+        } 
+        else {
+          this.fileData = this.fileData.replace("/*Theme_Variant*/@import url(\"resource:///org/gtk/libgtk/theme/Default/Default-dark.css\")", "/*Theme_Variant*/@import url(\"resource:///org/gtk/libgtk/theme/Adwaita/Adwaita-dark.css\")");   
+        }
+        this.fileDataDark = this.fileDataDark.replace("/*Theme_Variant*/@import url(\"resource:///org/gtk/libgtk/theme/Default/Default-dark.css\")", "/*Theme_Variant*/@import url(\"resource:///org/gtk/libgtk/theme/Adwaita/Adwaita-dark.css\")");   
+        break;        
+        
+      case "3":
+      default:
+        if(variant == "gtk-contained.css") {
+          this.fileData = this.fileData.replace("/*Theme_Variant*/@import url(\"resource:///org/gtk/libgtk/theme/Default/Default-dark.css\")",     "/*Theme_Variant*/@import url(\"resource:///org/gtk/libgtk/theme/Default/Default-light.css\")");
+        }
+    }
 
     this.fileData = this.setValueToVariables("/*Accent_Color_selected_bg_color*/",             colors[0],  this.fileData );
     this.fileData = this.setValueToVariables("/*Accent_Color_selected_borders_color*/",        colors[1],  this.fileData );
